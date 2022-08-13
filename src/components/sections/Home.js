@@ -5,7 +5,7 @@ import { Nav } from '../Nav'
 const Home = () => {
   return (
     <>
-      <div className='min-h-screen flex flex-col border border-4 border-black'>
+      <div className='min-h-screen flex flex-col'>
         <Nav />
         <Hero />
       </div>

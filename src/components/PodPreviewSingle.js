@@ -18,11 +18,11 @@ const PodPreviewSingle = ({creatorAv, creatorName, podCover, podName, podEps, po
           <h3 className='font-bold'>{podName}</h3>
           <div className='w-full flex items-center justify-between text-gray'>
             <div className='flex items-center sm:flex-col md:flex-row'>  
-              <p>{podEps}</p>
+              <p>{podEps} Eps</p>
               <GoPrimitiveDot className='opacity-20 sm:ml-1' />
-              <p className='sm:ml-1'>{podDur}</p>
+              <p className='sm:ml-1'>{podDur} min</p>
             </div>
-            <BsPlayCircle className='h-1/2 w-1/6 text-blue font-bold' />
+            <BsPlayCircle className='h-1/2 w-1/6 text-blue font-bold cursor-pointer' />
           </div>
         </div>
         
