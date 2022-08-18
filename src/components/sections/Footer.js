@@ -15,7 +15,7 @@ const Footer = () => {
   const handlefClick2 = () => setfClick2(!fClick2)
 
   return (
-    <div className='px-4 md:px-8 flex flex-grow flex-col-reverse md:flex-row bg-dark-blue text-white md:text-left'>
+    <footer className='px-4 md:px-8 flex flex-grow flex-col-reverse md:flex-row bg-dark-blue text-white md:text-left'>
       <div className='flex flex-col flex-1 justify-center sm:p-20 items-center'>
         <Newsletter />
         <div className='w-full flex flex-col lg:flex-row lg:justify-between text-center lg:text-left px-16'>
@@ -74,7 +74,7 @@ const Footer = () => {
           <p className='opacity-80 mt-2'>Coded by Chris Christodoulou</p>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 

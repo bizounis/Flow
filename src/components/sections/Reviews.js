@@ -6,7 +6,7 @@ const Reviews = () => {
     <div className='p-6 sm:px-8 flex flex-grow flex-col-reverse md:flex-row bg-fade-blue md:text-left'>
       <div className='flex flex-col flex-1 justify-center sm:p-20 items-center'>
         <h1 className='text-center mt-8 md:mt-0 mb-4 text-6xl font-bold'>What did our users say about us.</h1>
-        <p>Lorem ipsum klp klp klp</p>
+        <p>Lorem ipsum dolor sit amet</p>
         <div className='w-full flex-col md:flex-row lg:flex items-center justify-center p-10 text-white bg-blue overflow-hidden rounded-[25px]'>
           <img src={revAv} alt='review' className='w-60 m-auto rounded-full border-8 border-baby-blue object-cover ' />
           <div className='w-full p-10 lg:mt-0'>
